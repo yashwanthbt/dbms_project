@@ -1,0 +1,62 @@
+body{
+    
+    margin: 0;
+}
+header{
+    background: black;
+    padding: 10px;
+    text-align:center;
+    color: rgb(190, 148, 83);
+    margin: 0;
+}
+section{
+    margin: 0%;
+    overflow: hidden;
+    background:rgb(128, 128, 128);
+}
+.formcont1{
+    position: relative;
+    padding: 60px;
+    height: 640px;
+    
+    text-align: center;
+}
+img{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    border: 2px solid wheat;
+    border-radius: 10px;
+    height: 450px;
+    width: 100%;
+    border-width: 10px;
+}
+.type{
+    font-size: 25px;
+    margin: 2PX;
+}
+
+footer{
+    margin: 0%;
+    background:#b25eda ;
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+button{
+
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}

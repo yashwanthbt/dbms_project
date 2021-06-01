@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+header{
+    background: black;
+    padding: 10px;
+    text-align:center;
+    color: rgb(255, 45, 8);
+    margin: 0;
+}
+nav {
+    overflow:hidden;
+  background-color: rgb(0, 0, 0);
+}
+nav a{
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width:20%;
+  box-sizing: border-box;
+}
+nav a:hover,.active {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+nav a {
+    background-color: #0d11ff;
+    color: white;
+  }
+  section{
+      align-items: center;
+    color: rgb(190, 148, 83);
+    background: black; 
+      position: relative;
+      
+      height: 780px;
+      margin:0%;
+  }
+  .formcont1{
+    position: relative;
+    padding: 60px;
+    height: 460px;
+    
+    text-align: center;
+}
+form{
+  border: 2px solid wheat;
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  border-width: 10px;
+}
+button{
+  left: 40%;
+}
+  .sec{
+      border: 2px solid black;
+      padding: 50px;
+      text-align:justify;
+      height:465px;
+      font-size: larger;
+  } 
+  .atr{
+      font-size: xx-large;
+      margin: 10px;
+  }
+  footer{
+      margin: 0%;
+      background:#f02b2b ;
+      position: relative;
+      height: 100%;
+      text-align: center;
+  }

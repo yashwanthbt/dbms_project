@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Staff Login</title>
+</head>
+<body>
+         <div>
+                <header>College database</header>
+            </div>
+            <h1 style="text-align: center;">Staff login</h1>
+
+
+        <form action="/php/staff_login.php" method="post">
+        <div class="imgcontainer">
+            <img src="../photos/staff_logo.png" alt="staff">
+        </div>
+
+        <div class="staff ">
+            <label for="staffid"><b>Staff Id: </b></label>
+            <input type="text" placeholder="Enter staff id" name="staffid" required>
+            <br>
+            <br>
+            <br>
+            <label for="psw"><b>Password: </b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+            <br>
+            <br>
+            
+            <button type="submit" name="submit">Login</button>
+        </div>
+        </form>
+
+</body>
+</html>

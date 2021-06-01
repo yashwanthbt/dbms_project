@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/update.css">
+    </head>
+    <body>
+        <div>
+            <header>College database</header>
+        </div>
+        <nav class="navigation">
+                <a href="../html/admin_insert.html"> <li>Insert</li></a>
+                <a class="active" href="../html/admin_update.html"> <li>Update</li> </a>
+                <a href="../html/admin_delete.html"> <li>Delete</li> </a>
+                <a href="../html/main_page.html"> <li>Logout</li></a>
+        </nav>
+
+        <div class="update">
+            <form action="../php/update_teacher_mobile.php" method="POST">
+            <label for="teacher_id">Teacher ID:</label>
+            <input type="text" name="teacher_id" placeholder="enter the teacher_id">
+            <br>
+            <br>
+            <label for="updated_teacher_mobile">New mobile number:</label>
+            <input type="text" name="updated_teacher_mobile" placeholder="enter new mobile number">
+            <br>
+            <br>   
+            <input type="submit" name="submit" value="submit">
+
+            </form>
+        </div>
+        </body>
+        </html>

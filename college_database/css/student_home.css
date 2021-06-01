@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    background: black;
+}
+header{
+    background: black;
+    padding: 10px;
+    text-align:center;
+    color: rgb(190, 148, 83);
+    margin: 0;
+}
+nav {
+    overflow: hidden;
+  background-color: #333;
+}
+nav a{
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width:20%;
+  box-sizing: border-box;
+}
+nav a:hover,.active {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+nav a {
+    background-color: #b25eda;
+    color: white;
+  }
+  section{
+      align-items: center;
+    color: rgb(190, 148, 83);
+    background: black; 
+      position: relative;
+      height: 700px;
+      left: 10%;
+      margin:0%;
+  }
+  .sec{
+      border: 2px solid black;
+      padding: 50px;
+      text-align:justify;
+      height: 465px;
+      font-size: larger;
+      
+    
+  } 
+  
+  .atr{
+      font-size: xx-large;
+      margin: 30px;
+  }
+  .sec-at{
+    font-size: 20px;
+    left: 20%;
+    
+  }
+  footer{
+      margin: 0%;
+      background:#b25eda ;
+      position: relative;
+      height:100PX;
+      text-align: center;
+  }
+  .invalid {
+  align-items: center;
+    LEFT:40%;
+  }
+
+  .sec-at table{
+   
+    text-align: center;
+    width: 40%;
+    height: 20px;
+    text-decoration: none;
+    border: 3px solid white;
+  }
+  .table{
+    font-size: 20px;
+  }
+  table th{
+background-color: white;
+color: black;
+  }
+  .table table{
+    
+    width: 40%;
+    height: 20px;
+    text-decoration: none;
+    border: 3px solid white;
+  }
